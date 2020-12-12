@@ -5,8 +5,8 @@ let d = new Date();
 let newDate = d.getMonth() + '.' + d.getDate() + '.' + d.getFullYear();
 
 
-let baseUrl = 'http://api.openweathermap.org/data/2.5/forecast?zip=';
-let apiKey = '&appid=d514d52dd8af83d35eec2c62c17d1e6a';
+const baseUrl = 'http://api.openweathermap.org/data/2.5/forecast?zip=';
+const apiKey = '&appid=d514d52dd8af83d35eec2c62c17d1e6a&units=imperial';
 const apiUrl = "http://localhost:8000/";
 const zipCode = document.getElementById('zip');
 const feelings = document.getElementById('feelings');
